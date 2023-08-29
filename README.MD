@@ -1,13 +1,11 @@
+<img src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=kevinmatthe" width="auto"></img>
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&duration=3000&center=true&vCenter=true&multiline=true&repeat=false&width=800&height=80&lines=Welcome+to+KevinMatt's+workshop;Do+not+go+gentle+into+that+good+night.)](https://git.io/typing-svg)
 
 ![snake-grid](https://raw.githubusercontent.com/kevinmatthe/kevinmatthe/output/github-contribution-grid-snake.svg)
 
 <!--   profile-green-animate -->
 ![](./profile-3d-contrib/profile-green-animate.svg)
-
-<img
-  src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=kevinmatthe&badges=2&show-avatar=false&style=--header-bg-color:%23000;--border-radius:10px"
-/>
 
 <!--  2d history skills -->
 <img src="https://cr-skills-chart-widget.azurewebsites.net/api/api?username=kevinmatthe" width="auto"></img>
