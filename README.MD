@@ -5,3 +5,5 @@
 <!--   profile-green-animate -->
 ![](./profile-3d-contrib/profile-green-animate.svg)
 
+<!--  2d history skills -->
+<img src="https://cr-skills-chart-widget.azurewebsites.net/api/api?username=kevinmatthe" width="auto"></img>
