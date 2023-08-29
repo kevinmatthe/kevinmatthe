@@ -1,6 +1,6 @@
 ### Me in ❤️GitHub❤️
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome+to+KevinMatt's+Workshop;Do+not+go+gentle;into+that+good+night)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&pause=1000&center=true&vCenter=true&multiline=true&repeat=false&width=800&height=80&lines=Welcome+to+KevinMatt's+workshop;Do+not+go+gentle+into+that+good+night)](https://git.io/typing-svg)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kevinmatthe&count_private=true&show_icons=true)
 
