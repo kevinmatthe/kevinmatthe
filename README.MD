@@ -3,6 +3,11 @@
 ![snake-grid](https://raw.githubusercontent.com/kevinmatthe/kevinmatthe/output/github-contribution-grid-snake-dark.svg)
 
 <!--START_SECTION:waka-->
+
+```txt
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 <!--   profile-green-animate -->
