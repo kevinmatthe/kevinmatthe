@@ -2,6 +2,9 @@
 
 ![snake-grid](https://raw.githubusercontent.com/kevinmatthe/kevinmatthe/output/github-contribution-grid-snake-dark.svg)
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 <!--   profile-green-animate -->
 ![](./profile-3d-contrib/profile-green-animate.svg)
 
