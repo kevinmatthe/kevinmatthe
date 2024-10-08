@@ -5,11 +5,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Go         1 hr 33 mins    ████████████████▓░░░░░░░░   66.28 %
-JSON       18 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.49 %
-Other      15 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.77 %
-Python     8 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.97 %
-Thrift     3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.39 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
