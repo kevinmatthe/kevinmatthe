@@ -5,7 +5,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Python   7 hrs 21 mins   █████████████████████▒░░░   85.63 %
+Go       40 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.92 %
+Thrift   21 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.14 %
+Other    6 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.33 %
+Text     5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.97 %
 ```
 
 <!--END_SECTION:waka-->
