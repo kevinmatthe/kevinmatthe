@@ -2,6 +2,8 @@
 
 ![snake-grid](https://raw.githubusercontent.com/kevinmatthe/kevinmatthe/output/github-contribution-grid-snake-dark.svg)
 
+[![CodeTime Badge](https://img.shields.io/endpoint?style=flat-square&color=222&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D30418%26project%3D%26in=0)](https://codetime.dev)
+
 <!--START_SECTION:waka-->
 
 ```txt
