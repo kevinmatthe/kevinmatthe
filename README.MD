@@ -7,11 +7,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-JSON         5 mins          ███████████████▒░░░░░░░░░   61.25 %
-Other        1 min           █████░░░░░░░░░░░░░░░░░░░░   19.68 %
-Go           1 min           ███▒░░░░░░░░░░░░░░░░░░░░░   12.75 %
-JavaScript   0 secs          ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.16 %
-TypeScript   0 secs          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.54 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
