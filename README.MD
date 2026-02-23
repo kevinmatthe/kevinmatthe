@@ -7,11 +7,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Go         4 hrs 27 mins         ████████████████████████▓   98.33 %
-TOML       3 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.20 %
-Bash       1 min                 ░░░░░░░░░░░░░░░░░░░░░░░░░   00.40 %
-JSON       0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 %
-Assembly   0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
