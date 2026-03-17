@@ -1,0 +1,71 @@
+name: Auto Update Contributed Repos
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天自动运行一次
+  workflow_dispatch: # 允许你在 Actions 页面手动点击运行
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Fetch and Update README
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const query = `
+              query($login: String!) {
+                user(login: $login) {
+                  repositoriesContributedTo(first: 100, contributionTypes: [COMMIT, PULL_REQUEST], orderBy: {field: PUSHED_AT, direction: DESC}) {
+                    nodes {
+                      nameWithOwner
+                      url
+                      stargazerCount
+                      description
+                      owner {
+                        login
+                      }
+                    }
+                  }
+                }
+              }
+            `;
+            const variables = { login: context.repo.owner };
+            const result = await github.graphql(query, variables);
+            
+            let repos = result.user.repositoriesContributedTo.nodes;
+            
+            // 核心逻辑：精准过滤掉所有者是你自己的仓库
+            repos = repos.filter(repo => repo.owner.login !== context.repo.owner);
+            
+            // 生成 Markdown 列表 (这里默认提取前 10 个，你可以自行修改)
+            let md = "### 🌟 最近参与贡献的开源项目\n\n";
+            repos.slice(0, 10).forEach(repo => {
+              md += `- [**${repo.nameWithOwner}**](${repo.url}) - ⭐ ${repo.stargazerCount}\n`;
+              if (repo.description) {
+                md += `  <br/> *${repo.description}*\n`;
+              }
+            });
+            
+            const fs = require('fs');
+            let readme = fs.readFileSync('README.md', 'utf8');
+            const regex = /[\s\S]*/;
+            
+            if (readme.match(regex)) {
+              readme = readme.replace(regex, `\n${md}\n`);
+              fs.writeFileSync('README.md', readme);
+            } else {
+              console.log("未在 README 中找到插入标签！");
+            }
+            
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "Auto-update contributed repos" || echo "No changes to commit"
+          git push
