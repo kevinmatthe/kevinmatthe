@@ -7,7 +7,8 @@
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+Other   8 hrs 29 mins         ██████████████████████░░░   88.02 %
+TOML    1 hr 9 mins           ███░░░░░░░░░░░░░░░░░░░░░░   11.98 %
 ```
 
 <!--END_SECTION:waka-->
